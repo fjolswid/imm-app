@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/*palette: {*/
+/*primary: {*/
+/*    light: '#717478',*/
+/*    main: '#46494c',*/
+/*    dark: '#1f2224',*/
+/*},*/
+/*secondary: {*/
+/*    light: '#ffbb93',*/
+/*    main: '#ff8a65',*/
+/*    dark: '#c75b39',*/
+/*},*/
+/*}*/
+
+:root {
+    --primary-main-color: #46494c;
+    --primary-light-color: #717478;
+    --primary-dark-color: #1f2224;
+    --secondary-main-color: #ff8a65;
+    --secondary-light-color: #ffbb93;
+    --secondary-dark-color: #c75b39;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none; /* no underline */
+}
+
+.EstateListContainer {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.LoginContainer form {
+    padding: 20px;
+}
+
+.Login {
+    text-align: center;
+}
